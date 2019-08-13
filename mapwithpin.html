@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <title>WEEDROP</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style_index.css">
+
+    <script src="mapwithpin.js"></script>
+
+</head>
+
+<body>
+        <a href="#top"></a>
+    <div id="loadHtml"></div>
+    <div id="loginpage" class="loginpage d-flex justify-content-center"></div>
+    <img class="snoop" src="img/dropit.gif" alt="Italian Trulli" id="dropit-left">
+    <img class="snoop" src="img/dropit.gif" alt="Italian Trulli" id="dropit-right">
+    <div class="container" align="center">
+   
+    
+    <!--LOGIN FORM-->
+    <div>
+        <form class="login-form card" align="center">
+            <div>
+                <h1><img id="our-logo" src="resources/images/logo.png"></h1>
+                <img id="home-logo" src="img/home-logo.jpg">
+
+                <div>
+                    <label><b>Nickname</b></label>
+                    <!--for="uname"-->
+                    <input id="nickname-login" type="text" placeholder="Enter Nickname" required>
+                    <!--name="uname"-->
+                </div>
+
+                <div>
+                    <label><b>Password</b></label>
+                    <input id="password-login" type="password" placeholder="Enter Password" required>
+                </div>
+                <button id="enter-login" type="button" class="btn btn-success" >Drop In</button>
+                <button id="jointus" type="button" class="btn btn-success">Joint Us</button>
+            </div>
+        </form>
+    </div>
+    <!--JOIN FORM-->
+    <div>
+        <form class="join-form card" align="center">
+            <div>
+                <h1> <img id="our-logo" src="resources/images/logo.png"> </h1>
+                <img id="home-logo" src="img/home-logo.jpg">
+                <div>
+
+                    <label for="uname"><b>Key</b></label>
+
+
+                    <input id="key" type="text" placeholder="Enter Key" name="uname" required>
+                </div>
+            </div>
+
+            <div>
+
+                <label for="uname"><b>Nickname</b></label>
+
+
+                <input id="nickname-register" type="text" placeholder="Enter Nickname" name="uname" required>
+            </div>
+
+
+            <div>
+
+                <label for="psw"><b>Password</b></label>
+
+
+                <input id="password-register" type="password" placeholder="Enter Password" name="psw" required>
+
+            </div>
+            <button id="enter" type="button" class="btn btn-success">Enter</button>
+    </div>
+    </form>
+    </div>
+    <div align="center">
+    </div>
+    
+    </div>
+
+    <div id="hideMap">
+            
+        <div class="container shadow-lg p-3 mb-5 bg-white rounded" id="map"></div>
+        <div class="alert-message"> </div>
+        <div class="container" id="butons"></div>
+        <div class="d-flex justify-content-center">
+            <div class="divider"></div>
+            <button type="button" class="btn btn-dark" id="legitBtn">Legit</button>
+            <div class="divider"></div>
+            <button type="button" class="btn btn-danger" id="policeBtn">Drop It</button>
+            <div class="divider"></div>
+            <button type="button" class="btn btn-primary" id="group">Group</button>
+            <div class="divider"></div>
+<!--            <button type="button" class="btn btn-info" id="loginbtn">Silent</button> -->
+
+        </div>
+        <div class="d-flex justify-content-center" id="groupButtons">
+
+        </div>
+    </div>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvxHB0mFuVTPbStqYyoifyNb0iOc3Voy8&callback=a">
+        </script>
+</body>
+
+</html>

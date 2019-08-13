@@ -1,0 +1,157 @@
+
+#map {
+    height: 80%;
+    width: 80%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #43A047;
+    scroll-behavior: smooth;
+    /*background-image: url(resources/images/leaf.jpg);*/
+
+  }
+
+  #our-logo {
+    height: 200px;
+    width: 200px;
+    padding: 0%
+  }
+
+  #groupButtons {
+    padding-top: 2%;
+    
+  }
+
+  .divider {
+    width:5px;
+    height:auto;
+    display:inline-block;
+
+  }
+
+  .table-btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 4px;
+  }
+
+  .table-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  .alert
+{
+position: relative;
+z-index: 10;
+padding-left: 250px;
+font-size: 14px;
+}
+
+.alert h3,
+.alert .h3
+{
+margin-top:0;
+margin-bottom:0;
+font-size: 24px;
+}
+
+
+body{
+  /*background-image: url("img/dropit.gif")*/
+background-color: #43A047;
+}
+
+#home-logo {
+  height: 70%;
+  width: 70%;
+  margin: 50px 50px;
+}
+
+.login-form {
+  margin: 200px 200px;
+}
+
+.join-form {
+  margin: 182px 182px;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 5px 5px 80px 5px;
+  margin-top: -1px;
+  max-height: 1000px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 20px 20px 0 rgba(16, 177, 69, 0.747);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 20px 160px;
+}
+
+#home-logo{
+    margin: 0%
+}
+
+#dropit-left{
+    float: left;
+    margin: 0%;
+    padding: 180px 0px 0px 0px;
+}
+
+#dropit-right{
+  float: right;
+  margin: 0%;
+  padding: 180px 0px 0px 0px;
+}
+
+#hideMap {
+  display: none;
+}
+
+@media only screen and (min-width: 1100px) {
+  .test {
+    max-height: 100px;
+  }
+
+}
+
+.login-form {
+  max-width:600px;
+  min-width: 300px;
+  margin-top: 80px;
+ 
+ 
+  
+  
+}
+
+.join-form {
+  max-width:600px;
+  min-width: 300px;
+ 
+ 
+}
+
+.responsive {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+}
+
+.loginpage {
+  max-width: 2000px;
+  
+
+}

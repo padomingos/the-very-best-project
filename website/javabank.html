@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="websitecss.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="javabank.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+<body>
+    <div id="loginpage" class="loginpage"> 
+        <img src="img/dropit.gif" alt="Italian Trulli" id="dropit-left">
+        <img src="img/dropit.gif" alt="Italian Trulli" id="dropit-right">
+        <div class="container" align="center">   
+    </div>
+    <div id="dropit-left">     
+    </div>
+    <!--LOGIN FORM-->
+    <div>
+        <form  class="login-form card" align="center">          
+            <div>
+                    <h1>WEEDrop</h1>
+                    <img id="home-logo" src="img/home-logo.jpg">
+                    
+                <div>
+                    <label><b>Nickname</b></label> <!--for="uname"-->
+                    <input id="nickname-login" type="text" placeholder="Enter Nickname" required> <!--name="uname"-->
+                </div>  
+
+                <div>
+                    <label><b>Password</b></label>
+                    <input id="password-login" type="password" placeholder="Enter Password" required>
+                </div>  
+                <button id="enter-login" type="button" class="btn btn-success">Drop In</button>
+                <button id="jointus" type="button" class="btn btn-success">Joint Us</button>
+            </div>
+        </form>
+    </div>
+    <!--JOIN FORM-->
+    <div>
+            <form  class="join-form card container" align="center">          
+                <div>
+                        <h1>WEEDrop</h1>
+                        <img id="home-logo" src="img/home-logo.jpg">
+                    <div>
+                        <label for="uname"><b>Key</b></label>
+                        <input id="key" type="text" placeholder="Enter Key" name="uname" required>
+                    </div>  
+
+                    <div>
+                        <label for="uname"><b>Nickname</b></label>
+                        <input id="nickname-register" type="text" placeholder="Enter Nickname" name="uname" required>
+                    </div>  
+    
+                    <div>
+                        <label for="psw"><b>Password</b></label>
+                        <input id="password-register" type="password" placeholder="Enter Password" name="psw" required>
+                    </div>  
+                    <button id="enter" type="submit" class="btn btn-success">Enter</button>
+                </div>
+            </form>
+        </div>
+    <div align="center">
+    </div>
+    <div class="forgot-password" style="background-color:#f1f1f1" align="center">
+            <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</div>
+</body>
+</html>
